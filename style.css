@@ -1,0 +1,43 @@
+body {
+  display: grid;
+  background-color: #dbdeff;
+  grid-template-rows: 150px 400px;
+  grid-template-columns: 300px 400px 150px 150px 200px 50px;
+  grid-template-areas:
+    "a c e f g h"
+    "b d d f g h";
+  gap: 10px;
+  margin: 10px;
+}
+.uno {
+  background-color: #d30557;
+  grid-area: a;
+}
+.dos {
+  background-color: #ea6601;
+  grid-area: b;
+}
+.tres {
+  background-color: #00aba5;
+  grid-area: c;
+}
+.cuatro {
+  background-color: #ff8961;
+  grid-area: d;
+}
+.cinco {
+  background-color: #009a78;
+  grid-area: e;
+}
+.seis {
+  background-color: #2196d9;
+  grid-area: f;
+}
+.siete {
+  background-color: #1a6d9f;
+  grid-area: g;
+}
+.ocho {
+  background-color: #5ac1fc;
+  grid-area: h;
+}
